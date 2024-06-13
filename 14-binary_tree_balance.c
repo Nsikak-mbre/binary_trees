@@ -17,7 +17,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	right_count = binary_tree_height(tree->right);
 	if (left_count > right_count)
 		return (left_count + 1);
-	return (right_count + 1);;
+	return (right_count + 1);
 }
 
 /**
@@ -28,7 +28,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 
 
-int binary_tree_balance(const binary_tree_t*tree)
+int binary_tree_balance(const binary_tree_t *tree)
 {
 	int bal_factor;
 	int left_height;
